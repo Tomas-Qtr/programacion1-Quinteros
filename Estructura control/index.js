@@ -6,7 +6,7 @@ const saber_edad = () => {
 
     if (dato<=13 && dato>=1) {
 
-        a(`su edad está entre 1 a 13 años de edad`);
+        alert(`su edad está entre 1 a 13 años de edad`);
 
     }
     else{
