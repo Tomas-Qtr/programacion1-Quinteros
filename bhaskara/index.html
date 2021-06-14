@@ -5,20 +5,37 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>t.p</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     </head>
     <body>
-        <button>lol</button>
         
-        <label for="">a</label>
-        <input type="number">
-        <label for="">b</label>
-        <input type="number">
-        <label for="">c</label>
-        <input type="number">
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-md-5">
+                    <label for="">a</label>
+                    <input type="number" class="form-control" id="inp_a">
+                
+                    <label for="">b</label>
+                    <input type="number" class="form-control" id="inp_b">
+                    
+                    <label for="">c</label>
+                    <input type="number" class="form-control" id="inp_c">
+                    
+                </div>
+
+                <div class="col-md-6 " style="text-align: center">
+                    <img src="http://www.bloginformaticamicrocamp.com.br/wp-content/uploads/2013/01/bhaskara.jpg" alt="bhaskara">
+                </div>
+            </div>
+
+            <button class="btn btn-dark mt-3" id="btn_calcular">calcular</button>
+
+            <p id="p_texto" class="text-center mt-3 border border-dark mt-2 mb-2"></p>
+        </div>
         
 
 
-        <p id="p_texto"></p>
+        <script src="index.js"></script>
         
     </body>
 </html>
